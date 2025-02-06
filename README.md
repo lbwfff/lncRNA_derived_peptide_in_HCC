@@ -28,7 +28,7 @@ In s6_peptide_Characterization.R we trace the origin of the peptides, in additio
 ## STEP5 biostatistical analysis
 Before that we used s7_QC_for_protein_expression.R to charge the expression matrices obtained by reanalyzing the [Jiang et al 2019 dataset](https://www.nature.com/articles/s41586-019-0987-8) and the [Gao et al 2019 dataset](https://www.sciencedirect.com/science/article/pii/S0092867419310037?via%3Dihub), and we checked for the presence of batch effects.
 
-In s8_biomark.R we compared the predictive performance of models using canonical protein expression and lncRNA-derived peptides expression, and both were combined as biomarkers. These models included cancer tissue differentiation, survival prognosis prediction, and recurrence prognosis These models included cancer tissue differentiation, survival prognosis prediction, and recurrence prognosis.
+In s8_biomark.R we compared the predictive performance of models using canonical protein expression and lncRNA-derived peptides expression, and both were combined as biomarkers. These models included cancer tissue differentiation, survival prognosis prediction, and recurrence prognosis.
 
 In s9_biostatistic_for_peptide.R we counted the biostatistical significance of separate lncRNA-derived peptides in the two datasets, and in s10_TCGA.R we discuss the lncRNAs from which these lncRNA-derived peptides originated in the TCGA-LIHC dataset for biostatistical significance.
 
