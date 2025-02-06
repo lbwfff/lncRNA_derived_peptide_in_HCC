@@ -6,7 +6,7 @@ load('LBF_protein_exp.RData')
 lncexp<-protein[grep('sPep',protein$Protein),] 
 
 
-# myindex<-TNSMD::generate_index('./writeindex_2.csv','other',0,'sPep') #没问题
+# myindex<-TNSMD::generate_index('./writeindex_2.csv','other',0,'sPep')
 # 
 # f <-function(x) unlist(strsplit(x['name'],'[|]'))[2]
 # myindex$ID<-apply(myindex,1,f)
