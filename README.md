@@ -9,7 +9,9 @@ s0_data_prep.R consists of data preprocessing, where we formatted the NONCODE an
 
 ## STEP1 Ribo-seq analysis
 The Ribo-seq folder contains the command lines we used for the Ribo-seq analysis, including trim for reads, removal of rRNA, mapping, and prediction of activated ORFs.
+
 In s2_ORF_Characterization.R we perform a preliminary characterization of the obtained ORFs
+
 In s3_build_peptide_index.R we constructed the indexes needed for proteomic analysis based on the results of Ribo-seq, 
 
 ## 
