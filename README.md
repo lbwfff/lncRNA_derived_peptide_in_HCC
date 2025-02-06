@@ -8,16 +8,16 @@ Most of the code in this project is implemented by existing R packages (includin
 [s0_data_prep.R](./s0_data_prep.R) consists of data preprocessing, where we formatted the NONCODE annotations to be suitable for use as input annotations to the Ribo-seq analysis tool, and removed redundancies with the GENCODE annotations (by using the GffCompare tool).
 
 ## STEP1 Ribo-seq analysis
-The Ribo-seq folder contains the command lines we used for the Ribo-seq analysis, including trim for reads, removal of rRNA, mapping, and prediction of activated ORFs.
+The [Ribo-seq folder](./Ribo-seq/) contains the command lines we used for the Ribo-seq analysis, including trim for reads, removal of rRNA, mapping, and prediction of activated ORFs.
 
-In s2_build_peptide_index.R we constructed the indexes needed for proteomic analysis based on the results of Ribo-seq.
+In [s2_build_peptide_index.R](./s2_build_peptide_index.R) we constructed the indexes needed for proteomic analysis based on the results of Ribo-seq.
 
-In s3_ORF_Characterization.R we perform a preliminary characterization of the obtained ORFs
+In [s3_ORF_Characterization.R](./s3_ORF_Characterization.R) we perform a preliminary characterization of the obtained ORFs
 
 ## STEP2 Computational Proteomics Analysis
 We used the [Fragpipe](https://github.com/Nesvilab/FragPipe) platform to perform computational proteomics analysis, and the final parameters used can be seen in the fragpipe folder, which includes both sample annotation information and run logs.
 
-s4_MS_fdr_control.R is used to visualize the results of the FDR control of the [philosopher](https://github.com/Nesvilab/philosopher) and to count the number of mass spectrometry spectra obtained by different methods.
+[s4_MS_fdr_control.R](./s4_MS_fdr_control.R) is used to visualize the results of the FDR control of the [philosopher](https://github.com/Nesvilab/philosopher) and to count the number of mass spectrometry spectra obtained by different methods.
 
 ## STEP3 Estimation of protein expression
 s5_get_MS_expression.R was used to make an estimate of protein expression levels, which was achieved through the use of [MSstats](https://bioconductor.org/packages/release/bioc/html/MSstats.html) and [MSstatsTMT](https://www.bioconductor.org/packages/release/bioc/html/MSstatsTMT.html)
