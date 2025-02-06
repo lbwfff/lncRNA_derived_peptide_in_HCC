@@ -1,1 +1,1 @@
-# lncRNA_derived-peptide_in_HCC
+# A proteogenomic approach to discover novel lncRNA-derived peptides in hepatocellular carcinoma
