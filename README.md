@@ -10,8 +10,12 @@ s0_data_prep.R consists of data preprocessing, where we formatted the NONCODE an
 ## STEP1 Ribo-seq analysis
 The Ribo-seq folder contains the command lines we used for the Ribo-seq analysis, including trim for reads, removal of rRNA, mapping, and prediction of activated ORFs.
 
-In s2_ORF_Characterization.R we perform a preliminary characterization of the obtained ORFs
+In s2_build_peptide_index.R we constructed the indexes needed for proteomic analysis based on the results of Ribo-seq.
 
-In s3_build_peptide_index.R we constructed the indexes needed for proteomic analysis based on the results of Ribo-seq, 
+In s3_ORF_Characterization.R we perform a preliminary characterization of the obtained ORFs
 
-## 
+## STEP3 Computational Proteomics Analysis
+We used the [Fragpipe](https://github.com/Nesvilab/FragPipe) platform to perform computational proteomics analysis, and the final parameters used can be seen in the fragpipe folder, which includes both sample annotation information and run logs.
+s4_MS_fdr_control.R is used to visualize the results of the FDR control of the [philosopher](https://github.com/Nesvilab/philosopher) and to count the number of mass spectrometry spectra obtained by different methods.
+
+##
