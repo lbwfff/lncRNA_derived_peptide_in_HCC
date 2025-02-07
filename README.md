@@ -26,7 +26,7 @@ We used the [Fragpipe](https://github.com/Nesvilab/FragPipe) platform to perform
 In [s6_peptide_Characterization.R](./s6_peptide_Characterization.R) we trace the origin of the peptides, in addition we build a machine learning model for exploring why a large number of Ribo-seq peptides are not detected in protein mass spectrometry.
 
 ## STEP5 biostatistical analysis
-Before that we used [s7_QC_for_protein_expression.R](./s7_QC_for_protein_expression.R) to charge the expression matrices obtained by reanalyzing the [Jiang et al 2019 dataset](https://www.nature.com/articles/s41586-019-0987-8) and the [Gao et al 2019 dataset](https://www.sciencedirect.com/science/article/pii/S0092867419310037?via%3Dihub), and we checked for the presence of batch effects.
+Before that we used [s7_QC_for_protein_expression.R](./s7_QC_for_protein_expression.R) to process the expression matrices obtained from reanalyzing the [Jiang et al 2019 dataset](https://www.nature.com/articles/s41586-019-0987-8) and the [Gao et al 2019 dataset](https://www.sciencedirect.com/science/article/pii/S0092867419310037?via%3Dihub), and we checked for the presence of batch effects.
 
 In [s8_biomark.R](./s8_biomark.R) we compared the predictive performance of models using canonical protein expression and lncRNA-derived peptides expression, and both were combined as biomarkers. These models included cancer tissue differentiation, survival prognosis prediction, and recurrence prognosis.
 
