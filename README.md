@@ -3,7 +3,7 @@
 This Repositories was used to include codes used in the project “A practical proteogenomic approach to discover novel lncRNA-derived peptides and their potential clinical utility in hepatocellular carcinoma” (https://www.biorxiv.org/content/10.1101/2025.09.30.679478v1).
 
 <p align="center">
-  <img src="graphic_abstract.png" width="80%">
+  <img src="graphic_abstract.png" width="60%">
 </p>
 
 Most of the code in this project is implemented by existing R packages (including Cran and bioconductor), and some of the code is implemented by a customized toolkit called TNSMD, which can be found at TNSMD (https://github.com/lbwfff/TNSMD).
