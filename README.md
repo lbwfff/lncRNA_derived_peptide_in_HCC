@@ -1,6 +1,6 @@
 # A proteogenomic approach to discover novel lncRNA-derived peptides
 
-This Repositories was used to include codes used in the project “A proteogenomic approach to discover novel lncRNA-derived microproteins and their potential clinical utility in hepatocellular carcinoma” (Molecular & Cellular Proteomics. 2026).
+This Repositories was used to include codes used in the project “A proteogenomic approach to discover novel lncRNA-derived microproteins and their potential clinical utility in hepatocellular carcinoma” (Molecular & Cellular Proteomics. 2026) (https://www.mcponline.org/article/S1535-9476(26)00080-0/fulltext).
 
 <p align="center">
   <img src="graphic_abstract.png" width="60%">
